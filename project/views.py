@@ -1,4 +1,4 @@
-# flaskTaskerII/project/views.py 
+# flaskTaskerII/project/views.py
 
 import datetime
 from functools import wraps
@@ -100,5 +100,3 @@ def delete_entry(task_id):
 	db.session.commit()
 	flash('The task was deleted. Why not add a new one?')
 	return redirect(url_for('tasks'))
-
-	
