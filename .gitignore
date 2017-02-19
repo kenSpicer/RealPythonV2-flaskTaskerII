@@ -3,3 +3,9 @@ venv
 *.pyc
 __pycache__
 *.DS_Store
+htmlcov
+.coverage
+templates/02_tasks.html
+traceback.txt
+front-end/
+
